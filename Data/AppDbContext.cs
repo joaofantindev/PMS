@@ -14,6 +14,8 @@ namespace copySystem.Data
         public DbSet<Usuario> Usuarios => Set<Usuario>();
         public DbSet<Produto> Produtos => Set<Produto>();
 
+        public DbSet<Categoria> Categorias => Set<Categoria>();
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>(entidadeUsuario =>

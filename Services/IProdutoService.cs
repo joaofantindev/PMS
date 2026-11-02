@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace copySystem.Services
 {
-    public class IProdutoService
+    public interface IProdutoService
     {
         
     }
