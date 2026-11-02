@@ -1,0 +1,17 @@
+# Migrations geradas pelo EF Core (não versionar)
+Migrations/
+
+# Build outputs
+bin/
+obj/
+
+# IDE / user files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# SQLite local
+*.db
+*.db-shm
+*.db-wal
