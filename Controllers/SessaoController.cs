@@ -11,22 +11,11 @@ namespace PMS.Controllers
     [Route("[controller]")]
     public class SessaoController : Controller
     {
-        private readonly ILogger<SessaoController> _logger;
-
-        public SessaoController(ILogger<SessaoController> logger)
-        {
-            _logger = logger;
-        }
 
         public IActionResult Index()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
     }
 }

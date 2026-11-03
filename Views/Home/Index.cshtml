@@ -96,11 +96,25 @@
         <h5>Outline Buttons</h5>
 
         <div class="d-flex flex-wrap gap-2 mt-3">
-            <button class="btn btn-outline-primary">Primary</button>
+                <button class="btn btn-primary">primary</button>
+            
             <button class="btn btn-outline-success">Success</button>
             <button class="btn btn-outline-danger">Danger</button>
             <button class="btn btn-outline-warning">Warning</button>
             <button class="btn btn-outline-info">Info</button>
+        </div>
+
+        <hr>
+        <h3>Links reais</h3>
+        <!--BOTOES DE LINKS REAIS-->
+        <div class="d-flex flex-wrap gap-5 mt-3">
+            <a asp-controller="Produto" asp-action="Index">
+                <button class="btn btn-outline-primary">Index produtos</button>
+            </a>
+            <button class="btn btn-outline-success">criar produto</button>
+            <button class="btn btn-outline-danger">manage produtos</button>
+            <button class="btn btn-outline-warning">criar usuarios</button>
+            <button class="btn btn-outline-info">ver tudo</button>
         </div>
 
         <hr class="border-secondary my-4">
