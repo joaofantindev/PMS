@@ -10,3 +10,4 @@ namespace copySystem.Services
         
     }
 }
+//contrato de dados de sessao (se necessario)

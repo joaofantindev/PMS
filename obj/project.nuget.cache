@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3YiM03jb8k=",
+  "dgSpecHash": "WlijPQatSV8=",
   "success": true,
-  "projectFilePath": "/home/fantin/Desktop/dotnet/copy/copySystem/copySystem.csproj",
+  "projectFilePath": "/home/fantin/Desktop/projetos/csharp/PMS/copySystem.csproj",
   "expectedPackageFiles": [
     "/home/fantin/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/fantin/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/10.0.14/microsoft.aspnetcore.identity.entityframeworkcore.10.0.14.nupkg.sha512",

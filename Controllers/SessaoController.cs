@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace copySystem.Controllers
+namespace PMS.Controllers
 {
     [Route("[controller]")]
-    public class sessaoController : Controller
+    public class SessaoController : Controller
     {
-        private readonly ILogger<sessaoController> _logger;
+        private readonly ILogger<SessaoController> _logger;
 
-        public sessaoController(ILogger<sessaoController> logger)
+        public SessaoController(ILogger<SessaoController> logger)
         {
             _logger = logger;
         }
